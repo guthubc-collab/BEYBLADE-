@@ -1,2 +1,0 @@
-# BEYBLADE-
-Bot WhatsApp 😩
