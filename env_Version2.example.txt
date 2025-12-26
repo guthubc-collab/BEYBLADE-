@@ -1,0 +1,24 @@
+# Copy to .env and fill the values
+PORT=3000
+
+# Twilio credentials
+TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+TWILIO_AUTH_TOKEN=your_auth_token
+# For sandbox use: whatsapp:+14155238886
+TWILIO_WHATSAPP_FROM=whatsapp:+14155238886
+
+# Public base URL of your service, used for signature validation (recommended in prod)
+# Example: https://my-bot.example.com
+# If not set, the server will try to construct the URL from the request headers.
+BASE_URL=
+
+# Optional: OpenAI (if present, bot will use AI replies)
+OPENAI_API_KEY=
+OPENAI_MODEL=gpt-3.5-turbo
+OPENAI_SYSTEM_PROMPT=Tu es un assistant utile et concis qui répond en français si l'utilisateur parle français.
+
+# Session TTL (ms) for in-memory sessions
+SESSION_TTL_MS=900000
+
+# Default reply if OpenAI not configured
+DEFAULT_REPLY=Merci, j'ai reçu ton message !
