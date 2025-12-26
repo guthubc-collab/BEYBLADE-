@@ -72,11 +72,4 @@ Copie l'URL fournie (https) dans la configuration sandbox Twilio.
 - Escalade vers opérateur humain / file d'attente.
 - Tests unitaires / CI.
 
-## Besoin d'aide pour déployer ?
-Je peux générer :
-- un repo ZIP,
-- une configuration Docker Compose + Redis,
-- des instructions pas-à-pas pour un hébergeur (Railway, Render, Fly, ou ton "bot-hosting.net" si tu me donnes le lien).
-
-Dis‑moi ce que tu veux que j'ajoute ensuite (Redis pour sessions, déploiement sur un hébergeur précis, ou configuration CI/CD).
-```
+## Besoin d'aide pour déployer ?..
